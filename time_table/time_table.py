@@ -1,6 +1,5 @@
 from hour import Hour
 
-
 class TimeTable:
     def __init__(self, departure_times: tuple):
         seconds_in_day = 24 * 60 * 60
@@ -14,5 +13,3 @@ class TimeTable:
 
     def get_departure_times(self):
         return self.departure_times
-
-
